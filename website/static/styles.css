@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css2?family=Afacad+Flux:wght@100..1000&family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Parkinsans:wght@300..800&display=swap');
+
+body {
+    margin: 0px;
+    background-color: antiquewhite;
+}
+
+p, h3 {
+    font-family: "Parkinsans", serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+}
+
+.grey {
+    color: grey;
+}
+
+.parkinsans_font {
+    font-family: "Parkinsans", serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+}
+
+.flex {
+    display: flex;
+    align-items: center;
+    justify-content: right;
+}
+
+.page_title {
+    font-size: xx-large;
+    padding-right: 5px;
+}
+
+.nav {
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-top: 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#title {
+    display: flex;
+    align-items: baseline;
+}
+
+#form_button {
+    padding: 20px
+}
+
+#form_field {
+    padding: 20px
+}
+
+
+
+.large_font {
+    font-size: x-large;
+}
+
+#task {
+    border-width: 2px;
+    border-color: #e2da64;
+    border-style: solid;
+    background-color: white;
+    margin: 5px;
+    padding: 0px;
+    max-height: 100px;
+    max-width: 25%;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#task_content {
+    padding-left: 5px;
+}
+
+.button_style_1 {
+    background-color: #f44336;
+    color: white;
+    padding: 34px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;    
+}
+
+.button_style_1:hover {
+    background-color: red;
+}
+
+.button_style_2 {
+    background-color: #f1a854;
+    transition: background-color 0.5s ease-in-out;
+    color: white;
+    padding: 50px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;    
+}
+
+.button_style_2:hover {
+    background-color: rgb(70, 134, 70);
+}
+
+.button_style_3 {
+    background-color: rgb(70, 134, 70);
+    color: white;
+    padding: 50px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;    
+}
